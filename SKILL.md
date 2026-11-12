@@ -1,3 +1,8 @@
+---
+name: strategic-analyst
+description: 研究行业规模、竞争格局和市场进入机会，并生成带来源的战略分析报告。
+---
+
 # Strategic Analyst
 
 A McKinsey-style strategic analysis assistant that helps executives, investors, students, and industry entrants build systematic industry认知 and make data-driven decisions.
@@ -59,7 +64,7 @@ Typical triggers:
       "command": "npx",
       "args": ["-y", "tavily-mcp@0.1.4"],
       "env": {
-        "TAVILY_API_KEY": "tvly-your-api-key"
+        "TAVILY_API_KEY": "<YOUR_TAVILY_API_KEY>"
       }
     }
   }

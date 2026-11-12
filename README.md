@@ -50,7 +50,7 @@
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/YOUR_USERNAME/strategic-analyst.git
+git clone https://github.com/yamaz49/strategic-analyst.git
 ```
 
 ### 前置要求
@@ -64,7 +64,7 @@ git clone https://github.com/YOUR_USERNAME/strategic-analyst.git
       "command": "npx",
       "args": ["-y", "tavily-mcp@0.1.4"],
       "env": {
-        "TAVILY_API_KEY": "tvly-你的API密钥"
+        "TAVILY_API_KEY": "<YOUR_TAVILY_API_KEY>"
       }
     }
   }
@@ -221,21 +221,3 @@ strategic-analyst/
 ## 许可证
 
 CC BY-NC-SA 4.0
-
----
-
-## 作者与交流
-
-
-如果你：
-- 对这个 Skill 的使用有任何问题
-- 有新的分析框架想贡献
-- 需要基于这个 Skill 的**定制化行业分析服务**
-
-在微信公众号/小红书 搜索： 小王子和小企鹅
-
-> **P.S.** 如果你正在寻找「AI 驱动的行业研究和战略分析服务」，欢迎私信交流。
-
----
-
-*让每个创业者和投资人，都能拥有一个随身麦肯锡顾问。*
